@@ -41,6 +41,7 @@ main section p {
     font-family: "Alice", serif;
     color: #573A37;
     line-height: 150%;
+    font-size: 1rem;
 }
 
 .sobre ul {
