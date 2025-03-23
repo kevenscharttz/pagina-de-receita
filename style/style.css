@@ -68,10 +68,9 @@ main {
 }
 
 footer {
-    margin: 23px 0px 48px;
+    margin: 23px auto 48px;
 }
 
 footer p, i{
-    text-align: center;
     color: var(--text-color-on-bg);
 }
