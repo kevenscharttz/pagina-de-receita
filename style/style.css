@@ -6,16 +6,16 @@ body {
     background-size: cover;
 }
 
-#page {
-    background-color: #F0E8C2;
-    max-width: 50rem;
-    margin: 3.375rem auto 0;
-    border-radius: 1.5rem;
-}
-
 img {
     margin: 1.5rem;
     border-radius: 1rem;
+}
+
+#page {
+    background-color: #F0E8C2;
+    max-width: 50rem;
+    margin: 3.375rem auto;
+    border-radius: 1.5rem;
 }
 
 main {
@@ -32,6 +32,14 @@ main {
     font-size: 2.5rem;
 }
 
+#page section h2 {
+    font-family: "Alice", serif;
+    font-size: 1.5rem;
+    color: #291B1A;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
 #page section p {
     font-family: "Alice", serif;
     color: #573A37;
@@ -46,14 +54,6 @@ main {
     line-height: 150%;
 }
 
-#page section h2 {
-    font-family: "Alice", serif;
-    font-size: 1.5rem;
-    color: #291B1A;
-    margin-top: 1.5rem;
-    margin-bottom: 0.75rem;
-}
-
 #ingredients ul {
     list-style-position: inside;
 }
@@ -65,6 +65,7 @@ main {
 }
 
 #preparation p {
+    /* Efeito de pulo de dois paragrafos*/
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
