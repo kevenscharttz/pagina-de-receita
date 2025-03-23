@@ -29,11 +29,11 @@ body {
     background-color: var(--surface-color);
     max-width: 50rem;
     padding: 24px;
-    margin: 3.375rem auto 0;
+    margin: 3.375rem auto 1.75rem;
     border-radius: 1.5rem;
 }
 
-img {
+#page img {
     border-radius: 1rem;
     margin-bottom: 1.5rem;
 }
@@ -68,9 +68,11 @@ main {
 }
 
 footer {
-    margin: 23px auto 48px;
+    padding-bottom: 48px;
+    text-align: center;
+    color: var(--text-color-on-bg);
 }
 
-footer p, i{
-    color: var(--text-color-on-bg);
+footer img {
+    vertical-align: middle;
 }
